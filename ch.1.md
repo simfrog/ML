@@ -10,5 +10,8 @@
 * ### 머신러닝의 학습 방법  
   * ### Supervised learning : labeled examples(training set)을 가지고 학습하는 방법  
     * 머신러닝의 일반적인 문제  
+     ex) Image labeling, Email spam filter, Predicting exam score  
+    * 유형  
+      * ㄹㅇ
   * ### Unsupervised learning : un-labeled data, 즉 데이터를 보고 스스로 학습
     ex) Google news grouping, Word clustering  
