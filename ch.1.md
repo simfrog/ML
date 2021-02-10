@@ -13,10 +13,10 @@
      ex) Image labeling, Email spam filter, Predicting exam score  
     * 유형  
       * #### regression  
-       ex) 공부한 시간을 기준으로 기말 점수 예측  
+        ex) 공부한 시간을 기준으로 기말 점수 예측  
       * #### binary classification(분류)  
-       ex) 공부한 시간을 기준으로 Pass/non-pass 결정  
+        ex) 공부한 시간을 기준으로 Pass/non-pass 결정  
       * #### multi-label classification  
-       ex) 공부한 시간을 기준으로 등급(A, B, c, ...) 결정  
+        ex) 공부한 시간을 기준으로 등급(A, B, c, ...) 결정  
   * ### Unsupervised learning : un-labeled data, 즉 데이터를 보고 스스로 학습
     ex) Google news grouping, Word clustering
