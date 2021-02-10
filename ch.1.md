@@ -7,5 +7,8 @@
   
 * ### 머신러닝 : 프로그램 자체가 어떤 자료나 현상에서 자동적으로 배우는 것  
   
-* 머신러닝의 학습 방법  
-  *
+* ### 머신러닝의 학습 방법  
+  * ### Supervised learning : labeled examples(training set)을 가지고 학습하는 방법  
+    * 머신러닝의 일반적인 문제  
+  * ### Unsupervised learning : un-labeled data, 즉 데이터를 보고 스스로 학습
+    ex) Google news grouping, Word clustering  
