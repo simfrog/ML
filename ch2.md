@@ -1,0 +1,12 @@
+# ch2. Tensorflow 기초  
+
+## 1. Rank  
+### Tensor rank는 tensor의 차원 수이다.
+![텐서플로우 차원](https://user-images.githubusercontent.com/31130917/107652013-79093080-6cc3-11eb-9697-20b86940b3be.PNG)  
+  
+## 2. Shape  
+### ![텐서플로우 shape](https://user-images.githubusercontent.com/31130917/107652008-77d80380-6cc3-11eb-91e0-a9eed4a65369.PNG)  
+  
+## 3. Type  
+### ![텐서플로우 type](https://user-images.githubusercontent.com/31130917/107652004-773f6d00-6cc3-11eb-80ee-9571ef3328e8.PNG)  
+<출처 : https://tensorflowkorea.gitbooks.io/tensorflow-kr/content/g3doc/resources/dims_types.html>
