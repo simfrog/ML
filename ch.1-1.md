@@ -1,4 +1,4 @@
-# ch1. 기본적인 머신러닝의 용어와 개념 설명  
+# ch1-1. 기본적인 머신러닝의 용어와 개념 설명  
 
 ## 1. 머신러닝(Machine Learning)  
 * 명시적 프로그래밍(Explicit programming)의 한계    
