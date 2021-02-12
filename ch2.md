@@ -19,4 +19,5 @@ ex) 시험 공부하는 시간을 늘리면 성적이 잘 나옴
 #### m은 데이터 개수, H(x)는 예측값, y는 실제값  
   
 ![비용정리](https://user-images.githubusercontent.com/31130917/107741538-b7006600-6d50-11eb-9131-7ed853a43450.PNG)  
-### => Goal : Minimize cost
+### => Goal : Minimize cost  
+<출처 : 모두를 위한 딥러닝>
