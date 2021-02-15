@@ -1,8 +1,9 @@
 # ch2. 선형 회귀(Linear Regression)의 가설(Hypothesis)와 비용(cost)  
 
 ## 1. 선형 회귀(Linear Regression)  
+가장 기본적이고 많이 사용되는 머신러닝 알고리즘 중 하나  
 어떤 요인의 수치에 따라 특정 요인의 수치가 영향을 받음  
-변수 x에 의해서 값이 종속적으로 변하는 변수 y  
+#### 변수 x에 의해서 값이 종속적으로 변하는 변수 y  
 ex) 시험 공부하는 시간을 늘리면 성적이 잘 나옴  
 ![regression1](https://user-images.githubusercontent.com/31130917/107740649-faf26b80-6d4e-11eb-8e46-78953e432a91.PNG)  
   
