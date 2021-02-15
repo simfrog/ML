@@ -29,7 +29,7 @@ ex) cost(w1, w2, ...)
 2m으로 나눠도 똑같음  
 ![포말식](https://user-images.githubusercontent.com/31130917/107906209-e5ba4e80-6f93-11eb-8f6e-ba13483f133c.PNG)  
   
-알파를 running rate이라고 부르는데 일단 상수라 가정  
+알파를 learning rate이라고 부르는데 일단 상수라 가정  
 ![포말식2](https://user-images.githubusercontent.com/31130917/107906303-1d28fb00-6f94-11eb-9ee0-904e8e3ed03d.PNG)  
   
 미분절차  
