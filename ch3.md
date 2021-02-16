@@ -29,8 +29,11 @@ ex) cost(w1, w2, ...)
 2m으로 나눠도 똑같음  
 ![포말식](https://user-images.githubusercontent.com/31130917/107906209-e5ba4e80-6f93-11eb-8f6e-ba13483f133c.PNG)  
   
-알파를 learning rate이라고 부르는데 일단 상수라 가정  
+알파를 learning rate이라고 부르는데 일단 상수라 가정(W값의 감소 또는 증가되는 비율을 나타냄)  
 ![포말식2](https://user-images.githubusercontent.com/31130917/107906303-1d28fb00-6f94-11eb-9ee0-904e8e3ed03d.PNG)  
+W에서의 편미분은 기울기를 나타냄  
+#### 양수 값을 갖는다면 W는 왼쪽으로 이동시켜야만(감소) 손실함수 cost(W) 최소값 찾음  
+#### 음수 값을 갖는다면 W는 오른쪽으로 이동시켜야만(증가) cost(W) 최소값 찾음  
   
 미분절차  
 ![미분절차](https://user-images.githubusercontent.com/31130917/107906428-7002b280-6f94-11eb-93b0-cbb296b3ec14.PNG)  
