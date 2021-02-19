@@ -37,6 +37,6 @@ ex) y=1, c=-log(H(x))
 ![minimizecost](https://user-images.githubusercontent.com/31130917/108449259-8798ae80-72a6-11eb-84d7-2e1af8c29f31.PNG)  
 <출처 : 모두를 위한 딥러닝>  
   
-* 유도과정  
+* loss function cross-entropy 유도 
 ![유도과정](https://user-images.githubusercontent.com/31130917/108449419-cf1f3a80-72a6-11eb-9496-c3e875fdeea9.PNG)  
 <출처 : https://www.youtube.com/watch?v=ZKHw95q4ZOA&list=PLS8gIc2q83OhM0RTktKDitgZGX5dHo7Vs&index=9&t=4s>
