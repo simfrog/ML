@@ -1,0 +1,55 @@
+# ch7. Learning rate, Overfitting 그리고 일반화(Regularization)  
+
+## 1. Learning rate  
+### 1. Large learning rate -> overshooting  
+#### cost가 줄어들지 않고 굉장히 큰 값으로 가거나 밖으로 튕겨나가 버리는 경우  
+![overshooting](https://user-images.githubusercontent.com/31130917/108701412-44129e80-754b-11eb-846e-18389fdfbf2f.PNG)  
+#### => 학습이 이루어지지 않을뿐만 아니라 cost function을 출력하였을 때 숫자가 아닌 값이 출력됨  
+  
+### 2. Samll learning rate -> 너무 오래 걸림, local minimum에서 멈춤  
+![localminimum](https://user-images.githubusercontent.com/31130917/108701757-b71c1500-754b-11eb-8b3d-b90724f6d185.PNG)  
+=> learning rate을 조금 올려봄(해결책)  
+  
+* learning rate을 정하는 방법  
+주어진 데이터와 환경에 따라 조금씩 변하기 때문에 어떤 특별한 방법은 없음  
+#### 보통 처음에 0.01로 많이 시작  
+  
+## 2. Gradient descent를 위한 Data(x) 전처리  
+weight이 2개일 경우 아래와 같은 이차원 그래프로 표현  
+![전처리1](https://user-images.githubusercontent.com/31130917/108702980-54c41400-754d-11eb-8d84-e06857d60f88.PNG)  
+  
+![전처리2](https://user-images.githubusercontent.com/31130917/108703137-8f2db100-754d-11eb-8388-9cde403fdcba.PNG)  
+위 그림과 같이 데이터 값의 차이 클 경우 normalized 할 필요있음  
+  
+![nomalize](https://user-images.githubusercontent.com/31130917/108703266-bb493200-754d-11eb-84c7-79023833d4ff.PNG)  
+* #### zero-centered data : 데이터의 중심이 0에 갈 수 있도록  
+* #### nomalized data : 가장 많이 사용, 어떤 값이 어떤 범위에 들어가도록  
+  
+learning rate를 잡았는데 학습이 일어나지 않고 cost 함수가 발생하거나 이상한 동작을 보일때에는   
+데이터중에 차이가 큰게 있는지 preprocessing을 하였는지 확인  
+  
+nomalized 식은 다음과 같음  
+![standarzation](https://user-images.githubusercontent.com/31130917/108707916-0fefab80-7554-11eb-808f-10e3a36c3370.PNG)  
+  
+## 3. Overfitting  
+학습을 통해 training data set에 너무 잘 맞는 모델을 만들어냄 하지만 실제로 사용할 때나 test data에서는 잘 안 맞음  
+![overfitting](https://user-images.githubusercontent.com/31130917/108708292-9906e280-7554-11eb-90d9-6ffabf33808c.PNG)  
+  
+* 해결 방법  
+  * 더 많은 training data 사용  
+  * feature의 개수를 줄임  
+  * 일반화(Regularization)  
+  
+## 4. Regularization(일반화)  
+#### weight을 너무 큰 값을 가지지 않는 것  
+![overfitting그래프](https://user-images.githubusercontent.com/31130917/108708600-fd29a680-7554-11eb-9679-b3a60bf39dff.PNG)  
+위 그래프는 overfitting 그래프로 구부려져 있는 것을 핌으로써 일반화를 시킴  
+핀다 -> weight이 적은 값을 가지고 있다는 의미  
+구부린다 -> weight이 어떤 특정한 weight일 큰 값을 가지고 있을 경우  
+  
+![일반화](https://user-images.githubusercontent.com/31130917/108708804-411cab80-7555-11eb-99dc-a433bcd78650.PNG)  
+* Regularization strength  
+0 -> Regularization 쓰지 않겠음  
+1 -> Regularization을 굉장히 중요하게 여김  
+0.01 -> Regularization은 크게 중요하지 않음  
+<출처 : 모두를 위한 딥러닝>
