@@ -18,8 +18,9 @@ Wx의 결과로 z가 나오고, S로 표현되는 sigmoid에 전달되어 최종
   
 ![multinomial4](https://user-images.githubusercontent.com/31130917/108628848-571c6480-74a0-11eb-9929-8922f1261021.PNG)  
 ![multinomial5](https://user-images.githubusercontent.com/31130917/108628850-571c6480-74a0-11eb-9b63-e0980cc2ce24.PNG)  
-하지만 이와 같이 계산하면 0~1사이의 값으로 안 나옴  
+
 ![sigmoid1](https://user-images.githubusercontent.com/31130917/108628921-c2663680-74a0-11eb-92f6-f47f3eb59bb0.PNG)  
+하지만 이와 같이 계산하면 0~1사이의 값으로 안 나옴  
   
 * ### SOFTMAX function  
 아래의 함수를 통해 0~1 사이의 값으로 만듬  
