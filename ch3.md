@@ -32,8 +32,10 @@ W = 1 이므로 H(x) = x 이고 cost는 0이 됨
 ![1](https://user-images.githubusercontent.com/31130917/111187818-bbda6300-85f7-11eb-8283-7d147c2e8443.png)
 ![2](https://user-images.githubusercontent.com/31130917/111187822-bc72f980-85f7-11eb-8b42-7da0bb7ef105.png)
 ![3](https://user-images.githubusercontent.com/31130917/111187825-bd0b9000-85f7-11eb-8aee-ec6bfeee9346.png)  
+왼쪽부터 첫번째 그림은 데이터 개수가 m일 때, m이 아닌 2m을 사용하겠다는 뜻  
+그 이유는 오른쪽 그림에서 제곱을 미분하게 되면 2가 앞으로 나오는데, 이때 분자에 있는 2와 분모에 있는 2를 약분하면 공식이 단순해지기 때문  
+2m으로 나눠도 변함이 없기 때문에 2m으로 변경  
 
-2m으로 나눠도 똑같음  
 ![포말식](https://user-images.githubusercontent.com/31130917/107906209-e5ba4e80-6f93-11eb-8f6e-ba13483f133c.PNG)  
   
 알파를 learning rate이라고 부르는데 일단 상수라 가정(W값의 감소 또는 증가되는 비율을 나타냄)  
