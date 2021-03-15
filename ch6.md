@@ -25,6 +25,10 @@ Wx의 결과로 z가 나오고, S로 표현되는 sigmoid에 전달되어 최종
 아래의 함수를 통해 0~1 사이의 값으로 만듬  
 ![softmax](https://user-images.githubusercontent.com/31130917/108628968-12dd9400-74a1-11eb-86c1-142ce5ac95e2.PNG)  
   
+    1. 입력을 sigmoid와 마찬가지로 0과 1사이의 값으로 변환  
+    변환된 결과에 대한 합계가 1이 되돍 만들어 줌  
+  
+  
 * ### 'ONE-HOT' encoding  
 'ONE-HOT' encoding 기법을 사용해 SOFTMAX 함수를 이용하여 나온 결과값을 0과 1로 딱 떨어지게 만듬  
 ![one-hotenecoding](https://user-images.githubusercontent.com/31130917/108629061-7962b200-74a1-11eb-85e3-bd55c5ca74af.PNG)  
