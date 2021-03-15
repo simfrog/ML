@@ -34,7 +34,10 @@ Wx의 결과로 z가 나오고, S로 표현되는 sigmoid에 전달되어 최종
   
 * ### Cross-entropy cost function
 ![cross-entropy](https://user-images.githubusercontent.com/31130917/108629105-c47cc500-74a1-11eb-9e3e-0ae8d3f461ed.PNG)  
+cross-entropy : 통계학 용어, 두 확률 분포 p와 q사이에 존재하는 정보량을 계산하는 방법  
 #### S(y) = Y-hat, L = Y  
+L은 label을 의미
+#### cost함수는 예측한 값과 실체 값의 거리(distance, D)를 계산하는 합수로, 이 값이 줄어드는 방향으로, 즉 entropy가 갑소하는 방향으로 진행하다보면 최저점을 만남  
   
 ![cross-entropy 계산](https://user-images.githubusercontent.com/31130917/108629220-4bca3880-74a2-11eb-9f8c-b46c1d80d275.PNG)  
 ![cross-entropy 계산2](https://user-images.githubusercontent.com/31130917/108629222-4cfb6580-74a2-11eb-9f37-cf7f513e9da5.PNG)  
