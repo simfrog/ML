@@ -9,8 +9,9 @@ Wx의 결과로 z가 나오고, S로 표현되는 sigmoid에 전달되어 최종
 #### Y-hat : 예측값  
   
 ## 2. Multinomial classification  
-![multinomial1](https://user-images.githubusercontent.com/31130917/108628844-5552a100-74a0-11eb-8896-6254b850b0ea.PNG)  
-![multinomial2](https://user-images.githubusercontent.com/31130917/108628846-5683ce00-74a0-11eb-8dc4-c97c0968cfd7.PNG)  
+![multinomial1](https://user-images.githubusercontent.com/31130917/111205153-4330d200-860a-11eb-90c8-f18274c5793d.png)
+![multinomial2](https://user-images.githubusercontent.com/31130917/111205147-42983b80-860a-11eb-8906-4910d3fe9c92.png)  
+  
 ![multinomial3](https://user-images.githubusercontent.com/31130917/108628847-5683ce00-74a0-11eb-8e1a-7d0b05676d89.PNG)  
 위의 그래프는 아래와 같은 행렬식으로 쓸 수 있음  
 ![multinomial4](https://user-images.githubusercontent.com/31130917/108628848-571c6480-74a0-11eb-9929-8922f1261021.PNG)  
