@@ -10,7 +10,7 @@ Wx의 결과로 z가 나오고, S로 표현되는 sigmoid에 전달되어 최종
   
 ## 2. Multinomial classification  
 ![multinomial1](https://user-images.githubusercontent.com/31130917/111205363-82f7b980-860a-11eb-89c8-27c81edc7fbb.png)
-![multinomial2](https://user-images.githubusercontent.com/31130917/111205369-83905000-860a-11eb-91f7-b66bfc7995ea.png)  
+![multinomial2](https://user-images.githubusercontent.com/31130917/111205501-a6baff80-860a-11eb-8486-0725ed8a4942.png)  
   
 ![multinomial3](https://user-images.githubusercontent.com/31130917/108628847-5683ce00-74a0-11eb-8e1a-7d0b05676d89.PNG)  
 위의 그래프는 아래와 같은 행렬식으로 쓸 수 있음  
