@@ -37,8 +37,15 @@ Hypothesis(H(x) = Wx + b)는 1보다 더 크거나 0보다 더 작은 값이 나
   
 
 ![costfunction](https://user-images.githubusercontent.com/31130917/108448780-b19da100-72a5-11eb-95f1-2a08c0eaed58.PNG)  
-따라서 아래와 같이 사용  
+Hypothesis는 cost함수를 구성하는 핵심이기 때문에 cost함수 또한 이전과 달라져야 함  
+왼쪽은 직선을 살짝 구부려서 연결을 한 모양, 오른쪽은 sigmoid를 구부려서 연결한 모양  
+오른쪽의 경우 매끄럽게 만들지 않으면 local minimum을 최저점으로 잘못 발견할 수 있는 문제 발생  
+그래서 반드시 구불구불한 형태의 그래프를 매끈하게 펴야함, 그래야 global minimum에 도착할 수 있음  
+  
 ![costfunctionforLogistic](https://user-images.githubusercontent.com/31130917/108448853-d2fe8d00-72a5-11eb-9d6e-187a2292fe44.PNG)  
+지수를 사용하는 hypothesis의 비용을 판단하기 위해 log를 사용  
+log를 사용함으로써 구불구불한 cost함수를 매끈하게 필 수 있음  
+  
 최종 수식은 다음과 같음  
 ![최종 cost](https://user-images.githubusercontent.com/31130917/108449120-47393080-72a6-11eb-997a-1a7ae27487ba.PNG)  
 ex) y=1, c=-log(H(x))  
