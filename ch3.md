@@ -29,12 +29,25 @@ W = 1 이므로 H(x) = x 이고 cost는 0이 됨
 #### => 어떤 시작점에서 시작하든 항상 최소점에 도달  
   
 ## 3. 기울기 구하는 방법  
+왼쪽부터 1번, 2번, 3번  
 ![1](https://user-images.githubusercontent.com/31130917/111187818-bbda6300-85f7-11eb-8283-7d147c2e8443.png)
 ![2](https://user-images.githubusercontent.com/31130917/111187822-bc72f980-85f7-11eb-8b42-7da0bb7ef105.png)
 ![3](https://user-images.githubusercontent.com/31130917/111187825-bd0b9000-85f7-11eb-8aee-ec6bfeee9346.png)  
-왼쪽부터 첫번째 그림은 데이터 개수가 m일 때, m이 아닌 2m을 사용하겠다는 뜻  
+1번 그림은 데이터 개수가 m일 때, m이 아닌 2m을 사용하겠다는 뜻  
 그 이유는 오른쪽 그림에서 제곱을 미분하게 되면 2가 앞으로 나오는데, 이때 분자에 있는 2와 분모에 있는 2를 약분하면 공식이 단순해지기 때문  
 2m으로 나눠도 변함이 없기 때문에 2m으로 변경  
+  
+#### 양수 값을 갖는다면 W는 왼쪽으로 이동시켜야만(감소) 손실함수 cost(W) 최소값 찾음  
+#### 음수 값을 갖는다면 W는 오른쪽으로 이동시켜야만(증가) cost(W) 최소값 찾음  
+  
+![1](https://user-images.githubusercontent.com/31130917/111189324-4f606380-85f9-11eb-9be0-2fd78211c3a2.png)
+![2](https://user-images.githubusercontent.com/31130917/111189322-4f606380-85f9-11eb-843f-2c4efd9b8604.png)
+![3](https://user-images.githubusercontent.com/31130917/111189315-4ec7cd00-85f9-11eb-9843-c3084922285d.png)  
+알파를 learning rate이라고 부르는데 일단 상수라 가정(W값의 감소 또는 증가되는 비율을 나타냄)  
+  
+첫번째 그림은 구하고자하는 변화량, 가운데는 cost(W)를 가리키는 공식  
+첫번째와 가운데 공식을 더하면 오른쪽의 복잡한 공식이 만들어짐  
+(분자와 분모에 있는 기호는 도함수)  
 
 ![포말식](https://user-images.githubusercontent.com/31130917/107906209-e5ba4e80-6f93-11eb-8f6e-ba13483f133c.PNG)  
   
