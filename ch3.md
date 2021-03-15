@@ -1,13 +1,15 @@
 # ch3. 선형 회귀(Linear Regression)의 비용(cost)최소화 알고리즘의 원리 설명  
 
 ## 1. Minimize cost 구하는 방법  
-우선 아래와 같이 식을 간략히 바꿈  
 ![간단회귀식](https://user-images.githubusercontent.com/31130917/107905255-88250280-6f91-11eb-9436-7fc4185bd65e.PNG)  
+기존 공식을 단순화하고자 위와 같이 b를 없앰  
   
 ![간단회귀식계산](https://user-images.githubusercontent.com/31130917/107905250-86f3d580-6f91-11eb-9feb-fe2b3027e048.PNG)  
 위와 같이 계산한 식을 점으로 나타내면 아래와 같이 표현됨  
+  
 ![간단회귀식그래프](https://user-images.githubusercontent.com/31130917/107905356-c6babd00-6f91-11eb-9583-e30c47df921e.PNG)  
-=> 일일히 찾아보기는 무리  
+위의 그래프로 보아 W가 1일 때 가장 작은 비용이 듬  
+W = 1 이므로 H(x) = x 이고 cost는 0이 됨  
   
 ## 2. Gradient descent algorithm(경사 하강 알고리즘)  
 ### Minimize cost function  
