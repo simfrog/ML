@@ -53,7 +53,6 @@ log를 사용함으로써 구불구불한 cost함수를 매끈하게 필 수 있
 ex) y=1, c=-log(H(x))  
     y=0, c=-1*log(1-H(x))  
   
-* ### Minimize Cost  
 ![minimizecost](https://user-images.githubusercontent.com/31130917/108449259-8798ae80-72a6-11eb-84d7-2e1af8c29f31.PNG)  
 <출처 : 모두를 위한 딥러닝>  
   
