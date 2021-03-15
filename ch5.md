@@ -18,7 +18,7 @@ Hypothesis(H(x) = Wx + b)는 1보다 더 크거나 0보다 더 작은 값이 나
 => Classification 알고리즘 중에서도 정확도가 높은 알고리즘으로 알려져 있어 딥러닝에서 기본 컴포넌트로 사용되고 있음  
 ![logisticregression](https://user-images.githubusercontent.com/31130917/108447960-2a036280-72a4-11eb-8fb4-0885a26e3460.PNG)  
 <출처 : https://www.youtube.com/watch?v=ZKHw95q4ZOA&list=PLS8gIc2q83OhM0RTktKDitgZGX5dHo7Vs&index=9&t=4s>  
-  
+
     1. 학습된 모델을 수정하는 것은 옳지 않음  
      -> 예측이 틀릴 수는 있지만, 누구나 알 수 있는 사실에 대해 틀린 예측을 하면 올바른 모델이라고 할 수 없음  
     2. 어떤 방식의 선처리가 됐건 데이터를 2개로 분리하는 것은 편협한 느낌  
@@ -27,10 +27,9 @@ Hypothesis(H(x) = Wx + b)는 1보다 더 크거나 0보다 더 작은 값이 나
     4. 점수가 아주 작거나 매우 큰 경우에 대해서도 모델을 수정하지 않고 사용할 수 있는 방법이 필요(1번과 유사)  
   
 ## 2. Sigmoid function(Logistic function)  
+![식](https://user-images.githubusercontent.com/31130917/111198124-92730480-8602-11eb-8586-eb8ccd470e23.png)
+![sigmoid](https://user-images.githubusercontent.com/31130917/111198121-9141d780-8602-11eb-8c98-14662e267340.png)  
 출력값 y가 1 또는 0 만을 가져야만 하는 분류 시스템에서 함수 값으로 0~1 사이의 값을 가지는 sigmoid 함수를 사용할 수 있음  
-![sigmoid](https://user-images.githubusercontent.com/31130917/108448278-bf065b80-72a4-11eb-81ae-6a65ae44f2ae.PNG)  
-  
-![logistichypothesis](https://user-images.githubusercontent.com/31130917/108448428-07257e00-72a5-11eb-81f0-a1fbcde7b7e6.PNG)  
   
 ![costfunction](https://user-images.githubusercontent.com/31130917/108448780-b19da100-72a5-11eb-95f1-2a08c0eaed58.PNG)  
 따라서 아래와 같이 사용  
