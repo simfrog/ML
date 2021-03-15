@@ -28,9 +28,14 @@ Hypothesis(H(x) = Wx + b)는 1보다 더 크거나 0보다 더 작은 값이 나
   
 ## 2. Sigmoid function(Logistic function)  
 ![식](https://user-images.githubusercontent.com/31130917/111198124-92730480-8602-11eb-8586-eb8ccd470e23.png)
-![sigmoid](https://user-images.githubusercontent.com/31130917/111198121-9141d780-8602-11eb-8c98-14662e267340.png)  
+![sigmoid](https://user-images.githubusercontent.com/31130917/111198374-d403af80-8602-11eb-931f-706a58778f68.png)  
 출력값 y가 1 또는 0 만을 가져야만 하는 분류 시스템에서 함수 값으로 0~1 사이의 값을 가지는 sigmoid 함수를 사용할 수 있음  
   
+    e로 시작하는 계산식이 0일 떄, 1/1이 돼서 최대값인 1이 됨  
+    e로 시작하는 계산식이 매우 클 때, (1/큰수)이 돼서 최소값인 0이 됨  
+    WX가 0일 때, 지수가 0이 되어, 분모는 2가 되고, 이때 중간값인 1/2이 됨  
+  
+
 ![costfunction](https://user-images.githubusercontent.com/31130917/108448780-b19da100-72a5-11eb-95f1-2a08c0eaed58.PNG)  
 따라서 아래와 같이 사용  
 ![costfunctionforLogistic](https://user-images.githubusercontent.com/31130917/108448853-d2fe8d00-72a5-11eb-9d6e-187a2292fe44.PNG)  
