@@ -45,13 +45,18 @@ L은 label을 의미
 ![logistic cross entropy](https://user-images.githubusercontent.com/31130917/108629323-a368a400-74a2-11eb-9ec4-d14f1844ba47.PNG)  
 #### 실제값 L1, L2는 1과 0, 그리고 서로 반대의 값을 지닐 수 밖에 없기 때문에 L2 = 1-L1 일 수 밖에 없음(0또는1, 1또는0)  
 #### S1, S2는 예측값이기 때문에 1, 0만 나오는 것은 아니지만 둘의 합은 1이 될 수 밖에 없음(0.3, 0.7 등등, 즉 1-S1=S2)  
-#### 따라서 -L1*log(S!)-(1-L1)*log(1-S1) 가 됨  
+#### 따라서 -L1*log(S1)-(1-L1)*log(1-S1) 가 됨  
 #### L1 = y, S1 = H(x) 로 바꾸면 -y*log(H(x))-(1-y)*log(1-H(x)) 가 됨  
   
 * ### Cost function  
-따라서 아래와 같이 cost function을 정의할 수 있음  
 ![costfunction](https://user-images.githubusercontent.com/31130917/108629585-fbec7100-74a3-11eb-8383-7a92515a6f80.PNG)  
+L은 loss의 약자로 다른 말로든 cost 또는 error라고 함  
+비용은 결국 잘못 예측했을 때의 값, 즉 에러라고 볼 수 있음  
   
 * Gradient descent  
 ![gradient descent](https://user-images.githubusercontent.com/31130917/108629634-2dfdd300-74a4-11eb-895f-cd7d2e2b4200.PNG)  
+알파 오른쪽의 삼각형은 미분을 한다는 뜻  
+gradient descent 알고리즘을 구현하기 위해서는 cost함수와 gradient를 계산하는 함수가 모두 필요  
+따라서 위 그림은 learning rate에 미분 결과를 곱한 값을 빼야 한다고 나와있음(앞에 음수 기호가 있음)  
+하지만 이걸 미분하는 것은 너무 복잡하기에 생략  
 <출처 : 모두를 위한 딥러닝>
