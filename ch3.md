@@ -48,22 +48,22 @@ W = 1 이므로 H(x) = x 이고 cost는 0이 됨
 첫번째 그림은 구하고자하는 변화량, 가운데는 cost(W)를 가리키는 공식  
 첫번째와 가운데 공식을 더하면 오른쪽의 복잡한 공식이 만들어짐  
 (분자와 분모에 있는 기호는 도함수)  
-
-![포말식](https://user-images.githubusercontent.com/31130917/107906209-e5ba4e80-6f93-11eb-8f6e-ba13483f133c.PNG)  
-  
-알파를 learning rate이라고 부르는데 일단 상수라 가정(W값의 감소 또는 증가되는 비율을 나타냄)  
-![포말식2](https://user-images.githubusercontent.com/31130917/107906303-1d28fb00-6f94-11eb-9ee0-904e8e3ed03d.PNG)  
-W에서의 편미분은 기울기를 나타냄  
-#### 양수 값을 갖는다면 W는 왼쪽으로 이동시켜야만(감소) 손실함수 cost(W) 최소값 찾음  
-#### 음수 값을 갖는다면 W는 오른쪽으로 이동시켜야만(증가) cost(W) 최소값 찾음  
   
 미분절차  
 ![미분절차](https://user-images.githubusercontent.com/31130917/107906428-7002b280-6f94-11eb-93b0-cbb296b3ec14.PNG)  
+첫번째 공식에서 제곱은 두번째 공식의 시그마 오른쪽에 2로 변환  
+여기에 (Wx-y)에 대해 미분을 적용해야 하고 결과는 Wx는 x, y는 W가 없으므로 상수처리되어 0이 됨  
+따라서 (Wx-y)에 대해 W로 미분을 하면 x가 나오게 되고 두번째 오른쪽 끝에 추가됨  
+이를 정리하면 세번째 공식이 만들어짐  
+여기서 알파는 임의로 추가하는 상수로 미분에는 적용되지 않음  
 #### 마지막 식이 Gradient descent algorithm의 식으로 이 식을 여러번 실행 시키면 minimize cost를 구할 수 있음  
   
-아래와 같은 경우 시작점이 바뀌면 그 최소값 또한 달라짐  
 ![convexfunction](https://user-images.githubusercontent.com/31130917/107906650-f1f2db80-6f94-11eb-9367-d6e91328d3f1.PNG)  
+아래와 같은 경우 시작점이 바뀌면 그 도착점(최소값) 또한 달라짐  
   
-cost function을 가지고 그림을 그리면 아래와 같이 나타나고 어느 점에서 시작하든 최소값이 같음  
 ![convexfunction2](https://user-images.githubusercontent.com/31130917/107906720-2797c480-6f95-11eb-9a6d-e497170d55b4.PNG)  
+cost function을 가지고 그림을 그리면 아래와 같이 나타나고 어느 점에서 시작하든 최소값이 같음  
+위 그림과 같이 오목한 형태가 되도록 만들어야 함  
+#### => convex 함수  
+#### gradient descent algorithm은 convex 형태에 대해서만 적용할 수 있음  
 <출처 : 모두를 위한 딥러닝>
