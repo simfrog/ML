@@ -1,6 +1,9 @@
 # ch6. Multinomial classification  
 
-## 1. Ligistic regression  
+## 1. Logistic regression(Binary classification)  
+### 데이터를 1과 0의 두가지 그룹으로 나누기 위해 사용하는 모델  
+### softmax : 데이터를 2개 이상의 그룹으로 나누기 위해 binary classification을 확장한 모델  
+
 ![logistic 식](https://user-images.githubusercontent.com/31130917/108628697-b037c880-749f-11eb-9837-d392c0e8cccf.PNG)  
 ![logistic 그림](https://user-images.githubusercontent.com/31130917/108628612-56370300-749f-11eb-8620-72fe61e42afb.PNG)  
   
