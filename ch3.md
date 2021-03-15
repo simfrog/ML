@@ -26,9 +26,13 @@ W = 1 이므로 H(x) = x 이고 cost는 0이 됨
     반복할 때마다 다음 gradients(기울기의 정도) 계산  
     최소 비용에 수렴할 때까지 반복  
   
-#### 어떤 시작점에서 시작하든 항상 최소점에 도달  
+#### => 어떤 시작점에서 시작하든 항상 최소점에 도달  
   
 ## 3. 기울기 구하는 방법  
+![1](https://user-images.githubusercontent.com/31130917/111187468-59816280-85f7-11eb-8444-dfaa32546dea.png)
+![2](https://user-images.githubusercontent.com/31130917/111187464-58e8cc00-85f7-11eb-890a-aa690147aae3.png)
+![3](https://user-images.githubusercontent.com/31130917/111187459-58503580-85f7-11eb-8c6d-d02e42eaef81.png)  
+
 2m으로 나눠도 똑같음  
 ![포말식](https://user-images.githubusercontent.com/31130917/107906209-e5ba4e80-6f93-11eb-8f6e-ba13483f133c.PNG)  
   
